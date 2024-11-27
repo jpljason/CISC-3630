@@ -1,0 +1,53 @@
+.homepage-container{
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.skill-title-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skill-title{
+  font-size: 5.5rem;
+}
+
+.skill-desc{
+  margin-top: 35px;
+  color: rgba(253,242,221,255) !important;
+  width: 85%;
+}
+
+.homepage-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) { /* Medium screens and smaller */
+  .skill-title{
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 991px) { /* Medium screens and smaller */
+  .skill-title-desc{
+    margin-top: 15px;
+  }
+  .homepage-container {
+    justify-content: flex-start;
+  }
+  .skill-title{
+    font-size: 4rem;
+  }
+  .homepage-img{
+    margin-top: 35px;
+  }
+}
