@@ -16,7 +16,7 @@
 }
 
 .skill-title{
-  font-size: 5.5rem;
+  font-size: 5rem;
 }
 
 .skill-desc{
@@ -33,7 +33,7 @@
 
 @media (max-width: 1300px) { /* Medium screens and smaller */
   .skill-title{
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -45,7 +45,7 @@
     justify-content: flex-start;
   }
   .skill-title{
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .homepage-img{
     margin-top: 35px;
